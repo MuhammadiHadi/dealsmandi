@@ -1,0 +1,52 @@
+.modal-body h5 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* .modal-body .btn-outline-secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-weight: bold;
+    color:#4DB7FE
+} */
+/* 
+.modal-body .btn-outline-secondary img {
+    margin-right: 10px;
+} */
+
+.modal-body .d-grid {
+    margin-bottom: 15px;
+}
+
+.modal-body a {
+    text-decoration: none;
+}
+.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: calc(100vh - 1rem); 
+}
+.modal-body {
+    padding: 2rem; 
+    height: auto; 
+    min-height: 300px;
+}
+
+.modal-content {
+    border: 1px solid #dee2e6; 
+    border-radius: 0.5rem; 
+
+}
+.btn-outline-secondary {
+    transition: all 0.3s ease-in-out;
+    border-color: #00aaff; 
+    color:black;
+    
+}
+
+.btn-outline-secondary:hover {
+    background-color: #00aaff; /* Change background color on hover */
+    color: white;
+\}

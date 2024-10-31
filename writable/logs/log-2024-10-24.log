@@ -1,0 +1,52 @@
+CRITICAL - 2024-10-24 10:42:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "component/area-unit-compo.php"
+[Method: GET, Route: sub-category-data/35]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('component/area-unit-compo.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('component/area-unit-compo', [], true)
+ 3 APPPATH\Views\category\post-form.php(110): view('component/area-unit-compo', [...])
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\dealsmandi\\app\\Views\\category\\post-form.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('category/post-form', [], true)
+ 7 APPPATH\Controllers\CategoryController.php(89): view('category/post-form', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CategoryController->subCategoryChange('35')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-24 13:24:47 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+[Method: GET, Route: sub-category-data/36]
+in APPPATH\Views\category\post-form.php on line 403.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('category/post-form', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(89): view('category/post-form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CategoryController->subCategoryChange('36')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-24 13:25:18 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+[Method: GET, Route: sub-category-data/36]
+in APPPATH\Views\category\post-form.php on line 403.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('category/post-form', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(89): view('category/post-form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CategoryController->subCategoryChange('36')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-24 14:52:13 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: sub-category-data/38]
+in APPPATH\Views\category\post-form.php on line 685.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('category/post-form', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(89): view('category/post-form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CategoryController->subCategoryChange('38')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
